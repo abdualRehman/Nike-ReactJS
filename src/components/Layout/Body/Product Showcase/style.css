@@ -1,0 +1,14 @@
+/* styles.css */
+.image-gallery-zoom {
+    cursor: zoom-in; 
+  }
+  
+  .image-gallery-slide img:hover {
+    transform: scale(2); 
+    transition: transform 0.5s; 
+  }
+  
+  .image-gallery-thumbnails-container {
+    max-height: 200px; 
+  }
+  
