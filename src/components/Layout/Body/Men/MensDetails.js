@@ -36,7 +36,10 @@ function MensDetails() {
         </Grid>
         {data.map((product) => (
           <Grid key={product.id} item xs={12} sm={6} md={4} lg={3}>
-            <Link to="/Showcase" style={{ textDecoration: "none" }}>
+            <Link
+              to={"/Showcase/" + product.id}
+              style={{ textDecoration: "none" }}
+            >
               <Paper
                 style={{
                   display: "flex",
